@@ -21,5 +21,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('', include('staticpages.urls')),
+    path('movies/', include('movies.urls')),
     path('admin/', admin.site.urls),
 ]
